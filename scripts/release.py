@@ -8,10 +8,10 @@
 # ///
 import sys
 import re
-import click
+import click # pyright: ignore[reportMissingImports]
 from pathlib import Path
 import json
-import tomlkit
+import tomlkit # pyright: ignore[reportMissingImports]
 import datetime
 import subprocess
 from dataclasses import dataclass
